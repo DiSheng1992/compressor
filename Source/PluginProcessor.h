@@ -57,6 +57,8 @@ public:
     void setStateInformation (const void* data, int sizeInBytes) override;
     
     float gain;
+    float threshold;
+    
 
     
     enum Parameters{

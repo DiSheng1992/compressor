@@ -26,6 +26,7 @@ GainAudioProcessor::GainAudioProcessor()
 #endif
 {
     gain = 1;
+    threshold = 20;
 }
 
 GainAudioProcessor::~GainAudioProcessor()
@@ -145,9 +146,12 @@ void GainAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& mi
         // ..do something to the data...
         int i = 0;
         int buffersize = buffer.getNumSamples();
-        for(i = 0; i<buffer.getNumSamples(); i++)
+        float thre = pow(10,-threshold/20);
+        for(i = 0; i<buffersize; i++)
         {
-            channelData[i] *= gain;
+            if (channelData[i]<thre)
+                channelData[i] *= gain;
+            else channelData[i] = thre;
         }
     }
 

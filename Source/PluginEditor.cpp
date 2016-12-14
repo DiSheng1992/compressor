@@ -25,6 +25,16 @@ GainAudioProcessorEditor::GainAudioProcessorEditor (GainAudioProcessor& p)
     slider1.setTextBoxStyle(Slider::TextBoxLeft, false, 60, 40);
     slider1.addListener(this);
     slider1.setValue(processor.gain);
+    
+    
+    addAndMakeVisible(slider2);
+    slider2.setRange(0,50,0.01);
+    slider2.setSliderStyle(Slider::LinearBar);
+    slider2.setTextBoxStyle(Slider::TextBoxLeft, false, 60, 40);
+    slider2.addListener(this);
+    slider2.setValue(processor.threshold);
+    
+    
     setSize (400, 300);
     
 }
@@ -47,7 +57,8 @@ void GainAudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
-    slider1.setBounds(100, 150, 150, 100);
+    slider1.setBounds(100, 50, 150, 100);
+    slider2.setBounds(100, 200, 150, 100);
 }
 
 
@@ -55,6 +66,8 @@ void GainAudioProcessorEditor::sliderValueChanged(Slider* slider)
 {
     if (slider == &slider1)
         processor.gain = slider1.getValue();
+    if (slider == &slider2)
+        processor.threshold = slider2.getValue();
 }
 
 void GainAudioProcessorEditor::timerCallback()

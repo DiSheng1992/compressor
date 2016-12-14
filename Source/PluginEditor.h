@@ -37,7 +37,7 @@ private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
     GainAudioProcessor& processor;
-    Slider slider1;
+    Slider slider1, slider2;
 
     GainAudioProcessor& getProcessor() const
     {
