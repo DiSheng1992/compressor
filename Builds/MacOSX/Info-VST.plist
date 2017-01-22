@@ -10,9 +10,9 @@
     <key>CFBundleIdentifier</key>
     <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
     <key>CFBundleName</key>
-    <string>gain</string>
+    <string>gain_22012017_compressor</string>
     <key>CFBundleDisplayName</key>
-    <string>gain</string>
+    <string>gain_22012017_compressor</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>

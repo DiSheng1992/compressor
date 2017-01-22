@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="bL55aR" name="gain" projectType="audioplug" version="1.0.0"
-              bundleIdentifier="com.yourcompany.gain" includeBinaryInAppConfig="1"
+<JUCERPROJECT id="bL55aR" name="gain_22012017_compressor" projectType="audioplug"
+              version="1.0.0" bundleIdentifier="com.yourcompany.gain" includeBinaryInAppConfig="1"
               buildVST="1" buildVST3="0" buildAU="1" buildAUv3="0" buildRTAS="0"
-              buildAAX="0" pluginName="gain" pluginDesc="gain" pluginManufacturer="yourcompany"
-              pluginManufacturerCode="Manu" pluginCode="Bl55" pluginChannelConfigs=""
-              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
-              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="gainAU"
-              pluginRTASCategory="" aaxIdentifier="com.yourcompany.gain" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
+              buildAAX="0" pluginName="gain_22012017_compressor" pluginDesc="gain_22012017_compressor"
+              pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="Bl55" pluginChannelConfigs="{2,2}" pluginIsSynth="0"
+              pluginWantsMidiIn="0" pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="gainAU" pluginRTASCategory=""
+              aaxIdentifier="com.yourcompany.gain" pluginAAXCategory="AAX_ePlugInCategory_Dynamics"
               jucerVersion="4.3.0">
-  <MAINGROUP id="xFy3ZP" name="gain">
+  <MAINGROUP id="xFy3ZP" name="gain_22012017_compressor">
     <GROUP id="{54461E61-FC92-9BAD-E2AD-D3D9BE2C8D36}" name="Source">
       <FILE id="orxYOS" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
@@ -23,7 +24,7 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="gain"/>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="gain_22012017_compressor"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="gain"/>
       </CONFIGURATIONS>
       <MODULEPATHS>

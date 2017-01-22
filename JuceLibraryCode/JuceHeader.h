@@ -40,7 +40,7 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "gain";
+    const char* const  projectName    = "gain_22012017_compressor";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }

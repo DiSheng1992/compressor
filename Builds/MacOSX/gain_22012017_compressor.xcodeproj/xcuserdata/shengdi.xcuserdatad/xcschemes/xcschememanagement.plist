@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>gain_22012017_compressor (AU).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>gain_22012017_compressor (All).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>gain_22012017_compressor (Shared Code).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>gain_22012017_compressor (VST).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>16B084273ED087D2E3E1A65A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E20662D13510398E8516A08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86592159AA8AAEB3A5560F02</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AADF0E97657520D9344BB1B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

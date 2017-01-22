@@ -245,10 +245,10 @@
  #define JucePlugin_Build_STANDALONE       0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "gain"
+ #define JucePlugin_Name                   "gain_22012017_compressor"
 #endif
 #ifndef  JucePlugin_Desc
- #define JucePlugin_Desc                   "gain"
+ #define JucePlugin_Desc                   "gain_22012017_compressor"
 #endif
 #ifndef  JucePlugin_Manufacturer
  #define JucePlugin_Manufacturer           "yourcompany"
@@ -345,6 +345,15 @@
 #endif
 #ifndef  JucePlugin_AAXDisableMultiMono
  #define JucePlugin_AAXDisableMultiMono    0
+#endif
+#ifndef  JucePlugin_MaxNumInputChannels
+ #define JucePlugin_MaxNumInputChannels    2
+#endif
+#ifndef  JucePlugin_MaxNumOutputChannels
+ #define JucePlugin_MaxNumOutputChannels   2
+#endif
+#ifndef  JucePlugin_PreferredChannelConfigurations
+ #define JucePlugin_PreferredChannelConfigurations  {2,2}
 #endif
 
 #endif  // __JUCE_APPCONFIG_BL55AR__
